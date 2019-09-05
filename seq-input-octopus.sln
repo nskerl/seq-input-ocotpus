@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sln", "sln", "{623F93DE-B5D5-4750-A15B-E3C8417625C4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seq.Input.Octopus", "src\Seq.Input.Octopus\Seq.Input.Octopus.csproj", "{E5F76DA7-15B6-415D-B0CB-6B7DB748F04C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seq.Input.Octopus.Tests", "test\Seq.Input.Octopus.Tests\Seq.Input.Octopus.Tests.csproj", "{E11E1BAF-EF5E-4497-B599-52460B84E191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5F76DA7-15B6-415D-B0CB-6B7DB748F04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F76DA7-15B6-415D-B0CB-6B7DB748F04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F76DA7-15B6-415D-B0CB-6B7DB748F04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F76DA7-15B6-415D-B0CB-6B7DB748F04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11E1BAF-EF5E-4497-B599-52460B84E191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11E1BAF-EF5E-4497-B599-52460B84E191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11E1BAF-EF5E-4497-B599-52460B84E191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11E1BAF-EF5E-4497-B599-52460B84E191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57EF8DEA-39E4-4897-8EE4-1FD10017FA40}
+	EndGlobalSection
+EndGlobal
